@@ -14,7 +14,7 @@ get '/special' do
 end
 
 get '/cat' do
-    "<div>
+    "<div style='border: 16px dotted pink'>
     <img src='https://i.imgur.com/jFaSxym.png'>
     </div>"
 end
