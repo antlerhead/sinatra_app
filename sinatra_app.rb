@@ -14,7 +14,5 @@ get '/special' do
 end
 
 get '/cat' do
-    "<div style='border: 16px dotted pink'>
-    <img src='https://i.imgur.com/jFaSxym.png'>
-    </div>"
+  erb(:index)
 end
